@@ -1,0 +1,231 @@
+General styles
+* {
+  /* color: #fff; */
+}
+/* body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg, #0f0f0f, #666464);
+  color: #fff;
+  scroll-behavior: smooth;
+} */
+
+.landing-page {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(120deg, #000000, #333333);
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  z-index: 1000;
+}
+
+.navbar-container {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(120deg, #000000, #333333);
+  height: 50px;
+}
+
+.navbar a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+  background-color: rgba(255, 255, 0, 0.877);
+  color: #000;
+}
+
+/* .toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+} */
+
+.logo {
+  height: 80px;
+  width: 120px;
+  margin-right: 20px;
+}
+
+.company-name {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  flex-grow: 1;
+}
+
+.menu-button {
+  color: #fff;
+}
+
+.rent-car {
+  background-color: #fbff00e1;
+  color: #000;
+}
+
+.rent-car i {
+  margin-right: 5px;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.content {
+  margin-top: 110px; /* Space for the fixed header and navbar */
+}
+
+.home-section, .about-section, .cars-section, .contact-section {
+  padding: 60px 20px;
+}
+
+.about-section h2, .cars-section h2, .contact-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.feature-item {
+  width: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.feature-item:hover {
+  transform: scale(1.1);
+  color: rgba(255, 255, 0, 0.849);
+}
+
+.feature-item i {
+  font-size: 3em;
+  color: #fff;
+}
+
+.feature-item i:hover {
+  transform: scale(1.1);
+  color: rgba(255, 255, 0, 0.849);
+}
+
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.car-item {
+  width: 250px;
+  height: 200px;
+  margin: 15px;
+  transition: transform 2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+
+}
+
+.car-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  border: 2px solid yellow;
+}
+
+.car-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.map {
+  flex: 1;
+  min-width: 300px;
+  margin: 20px;
+}
+
+.enquiry-form {
+  flex: 1;
+  min-width: 300px;
+  margin: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+/* .btn-primary {
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #e6b800;
+  color: black;
+} */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-media a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: #ffcc00;
+}

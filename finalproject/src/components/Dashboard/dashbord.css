@@ -1,0 +1,161 @@
+@font-face {
+    font-family: rent-car;
+    /* src: url(../../resources/bruce-forever-font/Al_Veshion_PersonalUseOnly.otf); */
+    src: url(../../resources/bruce-forever-font/Handfine.ttf);
+    src: url(../../resources/bruce-forever-font/Longline\ Regular\ Demo.ttf);
+    src: url(../../resources/bruce-forever-font/Carlo.ttf)
+}
+
+*{
+    
+
+    font-family: rent-car;
+    color: 	#FFD700
+}
+
+body {
+    background-color: #222222;
+}
+
+input{
+    color: black !important;
+}
+
+#hovers{
+    transition: transform 3s;   
+    background-color: gray !important;
+}
+img{
+  width:100px;
+  height:70px;
+  border:none;
+  border-radius:25%;
+}
+#hovers:hover{
+    
+    transform: scale(1.05);
+    box-shadow: 1px 1px 30px 	#FFD700;
+}
+
+
+#buttonss:hover{
+    background-color: #FFD700 !important;
+    color: #222222 !important;
+    
+}
+
+/* CSS */
+
+
+/* CSS */
+#button-29 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#button-29:after {
+  content: "";
+  background-color: #ffe54c !important ;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+#button-29:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  #button-29 {
+    padding: 13px 50px 13px;
+  }
+}
+
+#card{
+    background-color: gray !important;
+    transition: transform 3s;   
+}
+#card:hover{
+    
+    transform: scale(1.05);
+    box-shadow: 1px 1px 30px 	#FFD700 !important;
+}
+
+
+#avatar{
+    border-radius: 50% !important;
+}
+
+#backgound{
+    background-color: #222222 !important;
+}
+
+
+
+.navbars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(120deg, #000000, #333333); */
+  height: 50px;
+}
+
+
+.navbars a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 10px;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 5px;
+
+}
+
+#button-29:hover{
+  box-shadow: 1px 1px 20px #FFD700;
+}
+
+.avatar{
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  /* background: linear-gradient(120deg, #0f0f0f, #666464); */
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: linear-gradient(120deg, #000000, #333333); */
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  z-index: 1000;
+}

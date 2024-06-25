@@ -1,0 +1,225 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "sandeep",
+      "useremail": "sandeep123@gmail.com",
+      "userpassword": "sandeep234",
+      "carname": "mahindra-XUV",
+      "carprice": 9000,
+      "avatar": "https://w0.peakpx.com/wallpaper/670/410/HD-wallpaper-light-yagami-art-facial-expression-anime-deathnote-anime-deathnote-deathnote-l-kira-thumbnail.jpg"
+    },
+    {
+      "id": "2",
+      "username": "basil",
+      "useremail": "basil123@gmail.com",
+      "userpassword": "basil123",
+      "carname": "tata-vitarabreeza",
+      "carprice": 7000,
+      "avatar": "https://i1.sndcdn.com/artworks-mXLUFLDNlSw6KbE0-0SuQHA-t500x500.jpg"
+    },
+    {
+      "id": "3",
+      "username": "siva",
+      "useremail": "siva123@gmail.com",
+      "userpassword": "siva123",
+      "carname": "suzuki-nexa",
+      "carprice": 8500,
+      "avatar": "https://upload.wikimedia.org/wikipedia/en/2/24/Chainsawman.jpg"
+    },
+    {
+      "id": "4",
+      "username": "eeswaran",
+      "useremail": "eeswaran123@gmail.com",
+      "userpassword": "eeswaran123",
+      "carname": "mahindra-bolero",
+      "carprice": 70000,
+      "avatar": "https://w0.peakpx.com/wallpaper/208/261/HD-wallpaper-naruto-anime-fuego-japon-naruto-shippuden-otaku-zorro.jpg"
+    },
+    {
+      "id": "4d8e",
+      "username": "Basil Ahamed",
+      "useremail": "basilahamed46@gmail.com",
+      "userpassword": "basil",
+      "carname": "",
+      "carprice": ""
+    },
+    {
+      "id": "7bb6",
+      "username": "temp  user",
+      "useremail": "temp@gmail.com",
+      "userpassword": "temp12345",
+      "carname": "",
+      "carprice": ""
+    },
+    {
+      "id": "ab1d",
+      "carname": "mahindra-XUV",
+      "carimage": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Mahindra/XUV700/10789/1705388477954/front-left-side-47.jpg",
+      "carrank": 8,
+      "carmodel": 2020,
+      "drivingtype": "manual"
+    },
+    {
+      "id": "2",
+      "carname": "tata-vitarabreeza",
+      "carimage": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Brezza/10388/1694424068944/front-left-side-47.jpg",
+      "carrank": 6,
+      "carmodel": 2022
+    },
+    {
+      "id": "3e0c",
+      "username": "basil ahamed",
+      "useremail": "basilahamed111@gmail.com",
+      "userpassword": "basilahamed",
+      "carname": "",
+      "carprice": ""
+    }
+  ],
+  "car": [
+    {
+      "carid": 1,
+      "carname": "Land Rover here",
+      "price": "$50/hr",
+      "carimage": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Land-Rover/Defender/9065/Land-Rover-Defender-2.0-90-HSE/1686138012912/front-left-side-47.jpg?imwidth=420&impolicy=resize",
+      "carrank": 10,
+      "carmodel": 2023,
+      "drivingtype": "automatic",
+      "type": "luxurious",
+      "count": 1,
+      "status": "Booked",
+      "id": "8eaa",
+      "user": "basil123@gmail.com"
+    },
+    {
+      "carid": 2,
+      "carname": "Mercedes-Benz GLA",
+      "price": "$40/hr",
+      "carimage": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Mercedes-Benz/GLA-2024/9731/1679039244149/front-left-side-47.jpg?imwidth=420&impolicy=resize",
+      "carrank": 8,
+      "carmodel": 2021,
+      "drivingtype": "automatic",
+      "type": "luxurious",
+      "count": 1,
+      "status": "Booked",
+      "id": "6bde",
+      "user": "basil123@gmail.com"
+    },
+    {
+      "carid": 3,
+      "carname": "Volvo XC90",
+      "price": "$30/hr",
+      "carimage": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Volvo/XC-90/10588/1689924353443/front-left-side-47.jpg?imwidth=420&impolicy=resize",
+      "carrank": 9,
+      "carmodel": 2023,
+      "drivingtype": "automatic",
+      "type": "luxurious",
+      "count": 1,
+      "status": "Booked",
+      "id": "e7eb",
+      "user": "basil123@gmail.com"
+    },
+    {
+      "carid": 6,
+      "carname": "Porsche 911",
+      "price": "300",
+      "carimage": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Porsche/911/11757/1717680690776/front-left-side-47.jpg?imwidth=420&impolicy=resize",
+      "carrank": 10,
+      "carmodel": 2022,
+      "drivingtype": "automatic",
+      "type": "suplux",
+      "count": 0,
+      "status": "NotBooked",
+      "id": "61c9"
+    },
+    {
+      "id": "4cff",
+      "carname": "gtr ",
+      "price": "85347",
+      "drivingtype": "automatic",
+      "carrank": "76",
+      "carmodel": "2025",
+      "carimage": "nil",
+      "type": "normal",
+      "status": "Booked"
+    },
+    {
+      "id": "1620",
+      "carname": "THAR",
+      "price": "$300#",
+      "drivingtype": "manual",
+      "carrank": "1",
+      "carmodel": "2025",
+      "carimage": "https://i.pinimg.com/originals/07/8c/71/078c71955fe352c544e395fbafddf82c.jpg",
+      "type": "sports",
+      "status": "Not-Booked"
+    }
+  ],
+  "contact": [
+    {
+      "id": "1",
+      "email": "xyz123@gmail.com",
+      "phonenumber": "7681343219",
+      "feedback": "good",
+      "name": "dinesh"
+    },
+    {
+      "id": "2",
+      "email": "abc123@gmail.com",
+      "phonenumber": "7681343219",
+      "feedback": "excellent",
+      "name": "surersh"
+    },
+    {
+      "id": "3",
+      "email": "def123@gmail.com",
+      "phonenumber": "9077072815",
+      "feedback": "bad",
+      "name": "mahesh"
+    },
+    {
+      "id": "1",
+      "username": "sandeep",
+      "useremail": "sandeep123@gmail.com",
+      "userpassword": "sandeep123",
+      "carname": "mahindra-XUV",
+      "carprice": 9000,
+      "status": false
+    },
+    {
+      "id": "2",
+      "username": "basil",
+      "useremail": "basil123@gmail.com",
+      "userpassword": "basil123",
+      "carname": "tata-vitarabreeza",
+      "carprice": 7000,
+      "status": false
+    },
+    {
+      "id": "3",
+      "username": "siva",
+      "useremail": "siva123@gmail.com",
+      "userpassword": "siva123",
+      "carname": "suzuki-nexa",
+      "carprice": 8500,
+      "status": false
+    },
+    {
+      "id": "4",
+      "username": "eeswaran",
+      "useremail": "eeswaran123@gmail.com",
+      "userpassword": "eeswaran123",
+      "carname": "mahindra-bolero",
+      "carprice": 70000,
+      "status": false
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "adminname": "VICTOR",
+      "adminemail": "victor@gmail.com",
+      "adminpassword": "victor123"
+    }
+  ]
+}
