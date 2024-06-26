@@ -59,7 +59,7 @@ fetchData();
             <Link to="/addCar" className='btn btn mb-2 button-33' >
            Add</Link>
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <Link to="/adminLogin"  onClick={()=>logout()} className='btn btn mb-2 button-33'style={{position:"absolute",left:"1100px"}}>
+            <Link to="/adminLogin"  onClick={()=>logout()} className='btn btn mb-2 button-33'style={{position:"absolute",right:"10px"}}>
            Logout</Link>
            
 

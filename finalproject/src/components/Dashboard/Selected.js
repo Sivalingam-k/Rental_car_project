@@ -7,50 +7,19 @@ import AddIcon from '@mui/icons-material/Add';
 import { Link } from 'react-router-dom';
 import Rating from '@mui/material/Rating';
 
-// not to finish
 const Selected = () => {
 
-  // const {carid}= useParams();
   const [users,setUsers] =useState([]);
   const[itemData,setItemData] = useState([])
   const [clicking,setclikcing] = useState(0);
 
 
-
-  /// by using the count to the perticular car
-
-// useEffect(() => {
-//   fetchCars();
-// }, []);
-
-
-//to get the data from the query of luxurious car
-
-
-
- 
-
-    // setCars(updatedCars);
-
-  // fratching the car items this use effect was do 
-
-
-
-
-
-  // fratching the userdetails items this use effect was do
-
-
-
-  // by using the car = database name ?type= keyword , and = (value of the car item)
   const [cars, setCars] = useState([]);
 
   useEffect(() => {
     fetchCars();
   }, []);
 
-
-  //to get the data from the query of luxurious car
   const fetchCars = async () => {
     try {
       let userdata = sessionStorage.getItem('user'); 
@@ -78,8 +47,7 @@ const Selected = () => {
               <img src={val.carimage} className="card-img-top" alt={val.name} style={{height:"300px"}} />
               <div className="card-body">
                 <h5 className="card-title">{val.carname}</h5>
-                <p className="card-text">CarRank: <strong> {val.carrank} </strong> type: <strong> {val.drivingtype} </strong>model : <strong> {val.carmodel}</strong></p>
-                <p style={{alignItems:"right"}} className='float-right'>addning car:<strong> {val.count} </strong></p>
+                <p className="card-text">Booked by: <strong>  {val.user} </strong></p>
                 {/* <button key={users.id} onClick={() => handleAddOne(val)} className="btn btn-primary float-left">{val.price} Only/-  </button>  */}
               </div>  
               

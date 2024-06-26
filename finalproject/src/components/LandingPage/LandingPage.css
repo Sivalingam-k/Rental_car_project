@@ -2,14 +2,16 @@ General styles
 * {
   /* color: #fff; */
 }
-/* body, html {
+body, html {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
   background: linear-gradient(120deg, #0f0f0f, #666464);
+  /* background: black !important; */
   color: #fff;
   scroll-behavior: smooth;
-} */
+}
+
 
 .landing-page {
   text-align: center;
@@ -76,9 +78,9 @@ General styles
 
 .company-name {
   text-align: center;
-  font-size: 24px;
+  font-size: 37px;
   color: #fff;
-  flex-grow: 1;
+  flex-grow: 10;
 }
 
 .menu-button {
@@ -124,6 +126,7 @@ General styles
   width: 200px;
   text-align: center;
   margin-bottom: 20px;
+  transition: transform 2s;
 }
 
 .feature-item:hover {
@@ -152,14 +155,14 @@ General styles
   width: 250px;
   height: 200px;
   margin: 15px;
-  transition: transform 2s;
+  transition: transform 1s  !important;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 
 }
 
 .car-item:hover {
-  transform: scale(1.1);
+  transform: scale(1.1) !important;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   border: 2px solid yellow;
 }
@@ -175,12 +178,14 @@ General styles
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  border-radius: 30px;
 }
 
 .map {
   flex: 1;
   min-width: 300px;
   margin: 20px;
+  border-radius: 30px;
 }
 
 .enquiry-form {
@@ -229,3 +234,5 @@ General styles
 .social-media a:hover {
   color: #ffcc00;
 }
+
+

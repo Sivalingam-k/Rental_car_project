@@ -12,6 +12,7 @@ const AddCarComp = () => {
         carrank:"",
         carmodel:"",
         carimage:"",
+        user:""
     });
     
     const inputChangeHandler = (events)=>{

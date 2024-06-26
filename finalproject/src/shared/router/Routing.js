@@ -79,7 +79,7 @@ const router = createBrowserRouter([
 
 
   
-//   {path:"*",element:<PageNotFound></PageNotFound>}
+  {path:"*",element:<PageNotFound></PageNotFound>}
 ]);
 
 export default router;

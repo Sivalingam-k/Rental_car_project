@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { AppBar, Toolbar, IconButton, Drawer, List, ListItem, ListItemText, Button ,Card,CardMedia,CardContent} from '@mui/material';
+import { AppBar, Toolbar, IconButton, Drawer, List, ListItem, ListItemText, Button ,Card,CardMedia,CardContent, radioClasses} from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Carousel from 'react-material-ui-carousel';
@@ -47,7 +47,7 @@ const Home = () => {
   };
 
   return (
-    <div id="home" className="home-section">
+    <div id="home" className="home-section container-fluid img-fluid. max-width: 100% height: auto">
       <Carousel autoPlay={true} interval={3000} navButtonsAlwaysInvisible={true}>
         {carImages.map((src, index) => (
           <img key={index} src={src} alt={`Car ${index + 1}`} className="carousel-img" />
@@ -58,7 +58,7 @@ const Home = () => {
 };
 
 const About = () => (
-  <div id="about" className="about-section">
+  <div id="about" className="about-section ">
     <h2>About Our Company</h2>
     <p>We are dedicated to providing top-notch car rental services to ensure your journey is smooth and memorable. Our commitment to security, quality, customer support, and affordability sets us apart in the industry. With a diverse fleet of vehicles, we cater to all your transportation needs, whether for business or leisure.</p>
     <p>Our company was founded with the vision of revolutionizing the car rental industry. We understand the importance of reliable transportation, whether you're traveling for work, vacation, or any other purpose. That's why we offer a wide variety of vehicles, from compact cars for city driving to spacious SUVs for family trips. Our team is passionate about cars and customer service, ensuring you have a seamless experience from the moment you book a vehicle to the moment you return it.</p>
@@ -109,10 +109,11 @@ const Contact = () => (
           width="100%"
           height="450"
           frameBorder="0"
-          style={{ border: 0 }}
+          style={{ borderRadius: "30px" }}
           allowFullScreen=""
           aria-hidden="false"
           tabIndex="0"
+
         ></iframe>
       </div>
       <div className="enquiry-form">
@@ -189,7 +190,7 @@ const LandingPage = () => {
     <div className="landing-page">
       <header className="header">
         <img src={logo} alt="Logo" className="logo" />
-        <div className="company-name">Royal Car Rental</div>
+        <div className="company-name text-warning display-1">Royal Car Rental</div>
         {isMobile && (
           <IconButton
             edge="end"

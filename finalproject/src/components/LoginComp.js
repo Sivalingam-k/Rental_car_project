@@ -55,6 +55,7 @@ nav("/adminDashboard");
   };
 
   return (
+  
     <ThemeProvider theme={defaultTheme} >
        
     
@@ -66,6 +67,7 @@ nav("/adminDashboard");
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
+            
           }}
         >
           <Avatar sx={{ m: 1, bgcolor: 'black' }}>
@@ -124,8 +126,6 @@ nav("/adminDashboard");
         {/* <Copyright sx={{ mt: 8, mb: 4 }} /> */}
       </Container>
     </ThemeProvider>
-
-
   );
 }
 

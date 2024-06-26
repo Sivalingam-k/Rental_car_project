@@ -42,25 +42,13 @@ const Superluxurious = (car) => {
     }
   };
 
-//   const toggleStatus = (car) => {
-      
-//     const newStatus = car.status === 'NotBooked' ? 'Booked' : 'Booked';
-//       axios.put(`http://localhost:8888/car/${car.id}`, { ...car, status: newStatus })
-//       .then(() => {
-//         setItemData(itemData.map(item => item.id === car.id ? { ...item, status: newStatus } : item));
-//       })
-//       .catch((error) => {
-//         console.error('There was an error updating the status!', error);
-//       });
-   
-// };
 
   
   const handleAddOne =  (car) => {
     const newStatus = sessionStorage.getItem("user")
     const newcount = 1
       axios.put(`http://localhost:8888/car/${car.id}`, { ...car, user: newStatus })
-      axios.put(`http://localhost:8888/car/${car.id}`, { ...car, count: newcount })
+      // axios.put(`http://localhost:8888/car/${car.id}`, { ...car, count: newcount })
       .then(() => {
         setItemData(itemData.map(item => item.id === car.id ? { ...item, user: newStatus } : item));
       })
@@ -74,37 +62,12 @@ const Superluxurious = (car) => {
         return car;
       });
    
-    // const updatecount = 1;
-  
-    // try {
-    //   const response =  axios.put(`http://localhost:8888/car/${carid}`, { count: updatecount });
-    //   console.log("Status updated successfully");
-    //   window.alert(`Status updated successfully for car ${carid}`);
-    //   // Optionally update local state or UI to reflect the change
-    // } catch (error) {
-    //   console.error('Error updating status:', error);
-    //   // Handle specific error cases if needed
-    //   if (error.response && error.response.status === 404) {
-    //     window.alert(`Car with id ${carid} not found.`);
-    //   } else {
-    //     window.alert('Failed to update status. Please try again later.');
-    //   }
-    // }
-    // to display the car items in it
-    
 
       
 
       setCars(updatedCars);
 
-      // const carToUpdate = updatedCars.find(car => car.carid === carid);
-      // await fetch(`http://localhost:8888/car/${carid}`, {
-      //   method: 'PUT', // Update existing car using PUT
-      //   headers: {
-      //     'Content-Type': 'application/json',
-      //   },
-      //   body: JSON.stringify(carToUpdate),
-      // });
+  
   };
 
     // fratching the car items this use effect was do 
@@ -137,10 +100,10 @@ const Superluxurious = (car) => {
 
 return  <>
 
-      {/* by using the session storage method for getting the username */}
+       {/* by using the session storage method for getting the username */}
 
-
-      <div className="container mt-5">
+  
+       <div className="container mt-5">
       <div className="row">
         {
         
@@ -151,20 +114,23 @@ return  <>
               <div className="card-body">
                 <h5 className="card-title">{val.carname}</h5>
                 <p className="card-text">CarRank: <strong> {val.carrank} </strong> type: <strong> {val.drivingtype} </strong>model : <strong> {val.carmodel}</strong></p>
-                <p style={{alignItems:"right"}} className='float-right'>addning car:<strong> {val.count} </strong></p>
+                {/* <p style={{alignItems:"right"}} className='float-right'>addning car:<strong> {val.count} </strong></p> */}
                 <button key={users.id} onClick={() => handleAddOne(val)} className="btn btn-primary float-left">{val.price} Only/-  </button> 
               </div>  
               
             </div>
-          </div>))}
+            
+          </div>
+        ))}
+          
       </div>
+      
     </div>
     
+    
 
-  
+        </>
+        
 
-      </>
-      
-
-}
+        }
 export default Superluxurious

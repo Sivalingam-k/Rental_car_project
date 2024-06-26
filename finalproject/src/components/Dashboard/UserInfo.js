@@ -19,28 +19,17 @@ const UserInfo = () => {
   }
   return (
     
-    <div className='mt-5 float-right' style={{margin:"auto"}}>
-    
+    <div className='.d-inline-flex. p-5 bd-highlight' style={{margin:"auto"}}>
 {
   itemData.map((val, index) => (
     <div key={index} className="col-lg-4 col-md-4 col-sm-6">
-      <figure class="figure">
-  <img src={val.avatar} id="avatar" class="figure-img img-fluid rounded float-right" alt="..."/>
-  <figcaption class="figure-caption">A caption for the above image.</figcaption>
-</figure>
    
-        <h5 className="card-title">{val.username}</h5>
-        <p className="card-text"><strong> {val.useremail} </strong></p> 
-    
-
-      <table>
-          <thead>
-            <tr>
-              <th></th>
-            </tr>
-          </thead>
-      </table>
+        <h5 className="card-title display-1">{val.username}</h5>
+        <p className="card-text display-5"><strong> {val.useremail} </strong></p> 
+      
 </div>
+  
+
   ))
 }
 

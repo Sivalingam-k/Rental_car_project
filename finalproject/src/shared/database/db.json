@@ -42,7 +42,8 @@
       "useremail": "basilahamed46@gmail.com",
       "userpassword": "basil",
       "carname": "",
-      "carprice": ""
+      "carprice": "",
+      "avatar": "https://i1.sndcdn.com/artworks-mXLUFLDNlSw6KbE0-0SuQHA-t500x500.jpg"
     },
     {
       "id": "7bb6",
@@ -78,102 +79,26 @@
     {
       "adminname": "VICTOR",
       "useremail": "victor@gmail.com",
-      "userpassword": "victor123"
+      "userpassword": "victor123",
+      "id": "fceb"
+    },
+    {
+      "id": "388f",
+      "username": "final project",
+      "useremail": "final@gmail.com",
+      "userpassword": "final",
+      "carname": "",
+      "carprice": "",
+      "avatar": "https://i1.sndcdn.com/artworks-mXLUFLDNlSw6KbE0-0SuQHA-t500x500.jpg"
     }
   ],
   "car": [
     {
-      "carid": 1,
-      "carname": "Land Rover here",
-      "price": "$50/hr",
-      "carimage": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Land-Rover/Defender/9065/Land-Rover-Defender-2.0-90-HSE/1686138012912/front-left-side-47.jpg?imwidth=420&impolicy=resize",
-      "carrank": 10,
-      "carmodel": 2023,
-      "drivingtype": "automatic",
-      "type": "luxurious",
-      "count": 0,
-      "status": "Not-Booked",
-      "id": "8eaa",
-      "user": "siva123@gmail.com"
-    },
-    {
-      "carid": 2,
-      "carname": "Mercedes-Benz GLA",
-      "price": "$40/hr",
-      "carimage": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Mercedes-Benz/GLA-2024/9731/1679039244149/front-left-side-47.jpg?imwidth=420&impolicy=resize",
-      "carrank": 8,
-      "carmodel": 2021,
-      "drivingtype": "automatic",
-      "type": "luxurious",
-      "count": 0,
-      "status": "Booked",
-      "id": "6bde",
-      "user": "siva123@gmail.com"
-    },
-    {
-      "carname": "Volvo XC90",
-      "price": "500",
-      "carimage": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Volvo/XC-90/10588/1689924353443/front-left-side-47.jpg?imwidth=420&impolicy=resize",
-      "carrank": 9,
-      "carmodel": 2023,
-      "drivingtype": "automatic",
-      "type": "luxurious",
-      "count": 0,
-      "status": "Booked",
-<<<<<<< HEAD
-      "id": "61c9"
-=======
-      "id": "eeb",
-      "user": "siva123@gmail.com"
->>>>>>> e848b8b6950022574992e1d5d8fcb27930c06297
-    },
-    {
-      "id": "4cff",
-      "carname": "gtr ",
-      "price": "85347",
-      "drivingtype": "automatic",
-      "carrank": "76",
-      "carmodel": "2025",
-      "carimage": "nil",
-      "user": "",
-      "count": 0,
-      "type": "normal",
-      "status": "NotBooked"
-    },
-    {
-      "id": "1620",
-      "carname": "THAR",
-      "price": "$300#",
-      "drivingtype": "manual",
-      "carrank": "1",
-      "carmodel": "2025",
-      "carimage": "https://i.pinimg.com/originals/07/8c/71/078c71955fe352c544e395fbafddf82c.jpg",
-      "type": "sports",
-<<<<<<< HEAD
-      "status": "NotBooked"
-    },
-    {
-      "id": "a7cb",
-      "carname": "RED RANGER",
-      "price": "$50/hr",
-      "drivingtype": "manual",
-      "carrank": "2",
-      "carmodel": "2023",
-      "carimage": "https://th.bing.com/th/id/OIP.JvgjTb4bC_6EIICyoQN1cgHaEK?rs=1&pid=ImgDetMain",
-      "type": "suplux",
-      "count": 1,
-      "status": "NotBooked"
-=======
-      "status": "NotBooked",
-      "user": "",
-      "count": 1
-    },
-    {
       "id": "4398",
       "carname": "gtr 2",
-      "price": "130000",
+      "price": "$300",
       "drivingtype": "manual",
-      "carrank": "76",
+      "carrank": "8",
       "carmodel": "2025",
       "carimage": "https://english.cdn.zeenews.com/sites/default/files/2023/08/24/1268665-nissan-gtr-nismo-gt3.jpg",
       "type": "luxurious",
@@ -184,28 +109,309 @@
     {
       "id": "17a2",
       "carname": "supura",
-      "price": "3243434",
+      "price": "$250",
       "drivingtype": "automatic",
-      "carrank": "76",
+      "carrank": "7",
       "carmodel": "2025",
       "carimage": "https://global.toyota/pages/news/images/2022/10/28/1700/001.jpg",
       "type": "luxurious",
       "status": "Booked",
-      "user": "sandeep123@gmail.com",
+      "user": "basil123@gmail.com",
       "count": 1
     },
     {
-      "id": "bc0f",
-      "carname": "g wagan",
-      "price": "345",
+      "id": "c7b5",
+      "carname": "BMW X7",
+      "price": "$20",
+      "drivingtype": "automatic",
+      "carrank": "6",
+      "carmodel": "2020",
+      "carimage": "https://upload.wikimedia.org/wikipedia/commons/0/00/BMW_G07_1X7A1696.jpg",
+      "type": "luxurious",
+      "status": "Not-Booked",
+      "user": ""
+    },
+    {
+      "id": "9d21",
+      "carname": "Kia EV6",
+      "price": "$14",
       "drivingtype": "manual",
-      "carrank": "76",
-      "carmodel": "2025",
-      "carimage": "https://www.mercedes-benz.co.in/content/india/en/passengercars/models/suv/g-class/overview/_jcr_content/root/responsivegrid/tabs_573903383_copy/tabitem/highlight/slider/image.component.damq1.3376226587799.jpg/cavansite_blue_metallic.jpg",
+      "carrank": "6",
+      "carmodel": "2021",
+      "carimage": "https://di-uploads-pod12.dealerinspire.com/beavertonkiaredesign/uploads/2023/07/photo-of-a-red-2023-Kia-EV6-electric-car.jpg",
+      "type": "delux",
+      "status": "Not-Booked",
+      "user": ""
+    },
+    {
+      "id": "100a",
+      "carname": "Aston Martin DB12",
+      "price": "$80",
+      "drivingtype": "automatic",
+      "carrank": "10",
+      "carmodel": "2024",
+      "carimage": "https://www.astonmartin.com/-/media/models---db12/my25-db12/desktop_hero_db12_-march24_france_bytomkahler.jpg?mw=1920&rev=ec1a683102fd44bf8745f76c58642a20&hash=9FEB390156A0907BE31C02C4D5F40DB1",
+      "user": "basilahamed46@gmail.com",
       "type": "suplux",
       "status": "Not-Booked",
       "count": 1
->>>>>>> e848b8b6950022574992e1d5d8fcb27930c06297
+    },
+    {
+      "id": "be83",
+      "carname": "Jaguar XJ",
+      "price": "$100",
+      "drivingtype": "automatic",
+      "carrank": "9",
+      "carmodel": "2023",
+      "carimage": "https://www.motorbeam.com/wp-content/uploads/Jaguar-Electric-Sedan-Rendering.jpg",
+      "user": "",
+      "type": "suplux",
+      "status": "Booked"
+    },
+    {
+      "id": "7614",
+      "carname": "Porsche Panamera",
+      "price": "$130",
+      "drivingtype": "automatic",
+      "carrank": "9",
+      "carmodel": "2023",
+      "carimage": "https://cdn.arstechnica.net/wp-content/uploads/2024/03/2025-Porsche-Panamera-first-drive-1-640x480.jpg",
+      "user": "basilahamed46@gmail.com",
+      "type": "suplux",
+      "status": "Booked"
+    },
+    {
+      "id": "c48c",
+      "carname": "Bentley Bentayga",
+      "price": "$90",
+      "drivingtype": "automatic",
+      "carrank": "7",
+      "carmodel": "2023",
+      "carimage": "https://www.topgear.com/sites/default/files/news-listicle/image/413extreme-silver-33-1.jpg?w=1290&h=726",
+      "user": "",
+      "type": "suplux",
+      "status": "Not-Booked"
+    },
+    {
+      "id": "aeca",
+      "carname": "Rolls-Royce Wraith",
+      "price": "$300",
+      "drivingtype": "automatic",
+      "carrank": "8",
+      "carmodel": "2023",
+      "carimage": "https://www.topgear.com/sites/default/files/news-listicle/image/buyers_guide_-_rolls_royce_wraith_2014_-_front_quarter_2.jpg?w=1290&h=726",
+      "user": "basilahamed46@gmail.com",
+      "type": "suplux",
+      "status": "Booked"
+    },
+    {
+      "id": "f740",
+      "carname": "BMW 7 Series",
+      "price": "$182",
+      "drivingtype": "automatic",
+      "carrank": "9",
+      "carmodel": "2024",
+      "carimage": "https://www.topgear.com/sites/default/files/news-listicle/image/bmw_750li_xdrive_19_0.jpg?w=1290&h=726",
+      "user": "",
+      "type": "suplux",
+      "status": "Booked"
+    },
+    {
+      "id": "1168",
+      "carname": "Rolls-Royce Phantom",
+      "price": "$200",
+      "drivingtype": "automatic",
+      "carrank": "8",
+      "carmodel": "2020",
+      "carimage": "https://www.topgear.com/sites/default/files/news-listicle/image/_jl58227_0.jpg?w=1290&h=726",
+      "user": "",
+      "type": "suplux",
+      "status": "Not-Booked"
+    },
+    {
+      "id": "c84d",
+      "carname": "Bentley Continental GT",
+      "price": "$200",
+      "drivingtype": "automatic",
+      "carrank": "10",
+      "carmodel": "2023",
+      "carimage": "https://www.topgear.com/sites/default/files/news-listicle/image/row09068.jpg?w=1290&h=726",
+      "user": "",
+      "type": "suplux",
+      "status": "Booked"
+    },
+    {
+      "id": "3f66",
+      "carname": "Lamborghini Miura",
+      "price": "$30",
+      "drivingtype": "manual",
+      "carrank": "10",
+      "carmodel": "2023",
+      "carimage": "https://hips.hearstapps.com/toc.h-cdn.co/assets/16/14/3200x2136/1971-lamborghini-miura-sv_1.jpg?resize=980:*",
+      "user": "basilahamed46@gmail.com",
+      "type": "delux",
+      "status": "Booked",
+      "count": 1
+    },
+    {
+      "id": "e701",
+      "carname": "BMW 3.0 CSL",
+      "price": "$23",
+      "drivingtype": "manual",
+      "carrank": "8",
+      "carmodel": "1991",
+      "carimage": "https://journal.classiccars.com/media/2022/01/bmw-3-0-csl-race-car_100795015_h-696x412.jpg",
+      "user": "basil123@gmail.com",
+      "type": "delux",
+      "status": "Not-Booked"
+    },
+    {
+      "id": "8eca",
+      "carname": "Acura NSX",
+      "price": "$29",
+      "drivingtype": "manual",
+      "carrank": "9",
+      "carmodel": "2000",
+      "carimage": "https://hips.hearstapps.com/toc.h-cdn.co/assets/16/14/2560x1706/2005-acura-nsx_1.jpg?resize=980:*",
+      "user": "",
+      "type": "delux",
+      "status": "Booked"
+    },
+    {
+      "id": "8081",
+      "carname": "Dodge Viper GTS",
+      "price": "$90",
+      "drivingtype": "manual",
+      "carrank": "10",
+      "carmodel": "1999",
+      "carimage": "https://www.lemans.org/media/cache/api_news_large/assets/fileuploads/57/4e/574edf9788365.jpeg",
+      "user": "basilahamed46@gmail.com",
+      "type": "delux",
+      "status": "Booked"
+    },
+    {
+      "id": "4fcc",
+      "carname": "DeTomaso Pantera ",
+      "price": "$200",
+      "drivingtype": "manual",
+      "carrank": "8",
+      "carmodel": "1999",
+      "carimage": "https://erclassics.b-cdn.net/media/catalog/product/cache/2/image/700x/17f82f742ffe127f42dca9de82fb58b1/d/9/d9087_canvasd.jpg",
+      "user": "basil123@gmail.com",
+      "type": "delux",
+      "status": "Not-Booked"
+    },
+    {
+      "id": "3852",
+      "carname": "Datsun 240Z",
+      "price": "$100",
+      "drivingtype": "manual",
+      "carrank": "9",
+      "carmodel": "1999",
+      "carimage": "https://www.kindigit.com/wp-content/uploads/2015/10/72_Datsun_Intro_1_1495x992.jpg",
+      "user": "",
+      "type": "delux",
+      "status": "Not-Booked"
+    },
+    {
+      "id": "a4d0",
+      "carname": "Chevrolet Corvette",
+      "price": "$200",
+      "drivingtype": "manual",
+      "carrank": "8",
+      "carmodel": "2024",
+      "carimage": "https://www.topgear.com/sites/default/files/cars-car/image/2019/03/2019-chevrolet-corvette-zr1-011.jpg",
+      "user": "",
+      "type": "sports",
+      "status": "Booked"
+    },
+    {
+      "id": "bfba",
+      "carname": "Audi R8",
+      "price": "$333",
+      "drivingtype": "automatic",
+      "carrank": "10",
+      "carmodel": "2024",
+      "carimage": "https://imgd.aeplcdn.com/664x374/cw/ec/21724/Audi-R8-New-Exterior-65294.jpg?v=201711021421&q=80",
+      "user": "",
+      "type": "sports",
+      "status": "Not-Booked",
+      "count": "NotBooked"
+    },
+    {
+      "id": "03ff",
+      "carname": "Lexus RC F",
+      "price": "$200",
+      "drivingtype": "automatic",
+      "carrank": "10",
+      "carmodel": "2024",
+      "carimage": "https://tmna.aemassets.toyota.com/is/image/toyota/lexus/images/models/rcf/2024/hero/Lexus-RCF-hero-modelpage-mobile-960x1109-LEX-RCF-MY23-0064.jpg?wid=960&hei=1109",
+      "user": "",
+      "type": "sports",
+      "status": "Not-Booked",
+      "count": "NotBooked"
+    },
+    {
+      "id": "569a",
+      "carname": "Jaguar F-Type",
+      "price": "$300",
+      "drivingtype": "automatic",
+      "carrank": "8",
+      "carmodel": "2024",
+      "carimage": "https://imgd.aeplcdn.com/1280x720/cw/ec/21654/Jaguar-FType-Front-view-64913.jpg?wm=0&t=114857943&t=114857943",
+      "user": "basil123@gmail.com",
+      "type": "sports",
+      "status": "Not-Booked",
+      "count": 1
+    },
+    {
+      "id": "0b93",
+      "carname": "BMW M4",
+      "price": "$311",
+      "drivingtype": "automatic",
+      "carrank": "10",
+      "carmodel": "2024",
+      "carimage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202105/2022_BMW_M4_Competition_Conver.jpg?size=690:388",
+      "user": "",
+      "type": "luxurious",
+      "status": "Booked"
+    },
+    {
+      "id": "4ae3",
+      "carname": "VISION AVTR ",
+      "price": "$500",
+      "drivingtype": "automatic",
+      "carrank": "10",
+      "carmodel": "2023",
+      "carimage": "https://cdn.vox-cdn.com/thumbor/N47QilRCAnep0XZYlv0km5R8Dd4=/0x0:1800x2700/1200x628/filters:focal(856x1604:857x1605)/cdn.vox-cdn.com/uploads/chorus_asset/file/24286088/226444_Mercedes_Avatar_DGolson_0011.jpg",
+      "user": "basilahamed46@gmail.com",
+      "type": "luxurious",
+      "status": "Booked",
+      "count": 1
+    },
+    {
+      "id": "bef5",
+      "carname": "karma automotive",
+      "price": "$302",
+      "drivingtype": "automatic",
+      "carrank": "10",
+      "carmodel": "2025",
+      "carimage": "https://hips.hearstapps.com/hmg-prod/images/2021-karma-gs-6-108-1618869581.jpg?crop=0.928xw:0.695xh;0.0721xw,0.156xh&resize=1200:*",
+      "user": "",
+      "type": "sports",
+      "status": "Booked"
+    },
+    {
+      "id": "09e3",
+      "carname": "bugatti veyron",
+      "price": "$300",
+      "drivingtype": "automatic",
+      "carrank": "10",
+      "carmodel": "2025",
+      "carimage": "https://www.bugatti.com/media/xtupv0rb/bugatti-super-sport-racecourt.png?width=1064&height=709&rnd=133343651888630000",
+      "user": "basilahamed46@gmail.com",
+      "type": "sports",
+      "status": "Booked"
     }
   ],
   "contact": [
@@ -267,7 +473,5 @@
       "status": false
     }
   ],
-  "admin": [
-    
-  ]
+  "admin": []
 }
