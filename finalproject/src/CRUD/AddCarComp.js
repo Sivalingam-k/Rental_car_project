@@ -13,7 +13,7 @@ const AddCarComp = () => {
         carmodel:"",
         carimage:"",
     });
-
+    
     const inputChangeHandler = (events)=>{
             const {type,name,value} = events.target;
             setItemData({...itemData,[name]:value});
@@ -70,7 +70,7 @@ const AddCarComp = () => {
                <option value="Not-Booked">Not-Booked</option>
            </select>
       
-       <button type="submit" className="btn btn-info mt-3 form-control">Submit</button>
+       <button type="submit" className="btn btn-info mt-3 form-control" >Submit</button>
    </form>
 
 

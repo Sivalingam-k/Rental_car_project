@@ -27,9 +27,7 @@ const LoginComp = () => {
    const reloadss = ()=>{
     nav('/forgot');
    };
-   const aredirect = ()=>{
-    nav('/adminLogin');
-   };
+   
    const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
@@ -38,6 +36,11 @@ const LoginComp = () => {
     axios.get("http://localhost:8888/users").then((res)=>{
         let usersData=res.data;
        const data =usersData.filter((val)=>{return val.useremail===email && val.userpassword===password});
+       const adata=usersData.filter((val)=>{return val.useremail==="victor@gmail.com" && val.userpassword==="victor123"})
+       if(adata>0
+      ){
+nav("/adminDashboard");
+       }
        if(data.length>0){
         nav("/MainDashbord");
         sessionStorage.setItem("user",email)
@@ -53,17 +56,7 @@ const LoginComp = () => {
 
   return (
     <ThemeProvider theme={defaultTheme} >
-       <Link component="button" variant="text" onClick={()=>aredirect()}>
-       <Button
-              type="submit"
-             
-              variant="contained"
-             
-              sx={{ mt: 3}}
-            >
-             Admin
-            </Button>
-                </Link>
+       
     
       <Container component="main"  maxWidth="xs">
         <CssBaseline />

@@ -5,8 +5,12 @@ const ProtectedRouting = ({Component}) => {
       
     const nav = useNavigate();
     useEffect(()=>{
+        
         if(!sessionStorage.getItem("user")){
            nav("/");
+        }else if(sessionStorage.getItem("user") == ("victor@gmail.com")){
+         console.log(sessionStorage.getItem("user") );
+            nav("/adminDashboard")
         }
     },[])
    

@@ -40,10 +40,10 @@ fetchData();
     }
     const toggleStatus = (car) => {
       
-      const newStatus = car.status === 'NotBooked' ? 'Booked' : 'NotBooked';
-        axios.put(`http://localhost:8888/car/${car.id}`, { ...car, status: newStatus })
+      const newStatus = car.count >0 ? 'Booked' : 'NotBooked';
+        axios.put(`http://localhost:8888/car/${car.id}`, { ...car, count: newStatus })
         .then(() => {
-          setItemData(itemData.map(item => item.id === car.id ? { ...item, status: newStatus } : item));
+          setItemData(itemData.map(item => item.id === car.id ? { ...item, count: newStatus } : item));
         })
         .catch((error) => {
           console.error('There was an error updating the status!', error);
@@ -89,7 +89,7 @@ fetchData();
                             <td>{val.carmodel}</td>
                             <td><img src={val.carimage} alt="Loading" /></td>
                             <td>
-                <button type="button" className={`btn ${val.status === 'Booked' ? 'btn-outline-success' : 'btn-outline-danger'}`} onClick={() => toggleStatus(val)}>
+                <button type="button" className={`btn ${val.count>0  ? 'btn-outline-success' : 'btn-outline-danger'}`} onClick={() => toggleStatus(val)}>
                   {val.status}
                 </button>
               </td>

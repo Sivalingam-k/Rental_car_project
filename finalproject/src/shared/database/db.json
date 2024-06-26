@@ -74,6 +74,11 @@
       "userpassword": "basilahamed",
       "carname": "",
       "carprice": ""
+    },
+    {
+      "adminname": "VICTOR",
+      "useremail": "victor@gmail.com",
+      "userpassword": "victor123"
     }
   ],
   "car": [
@@ -129,7 +134,7 @@
       "drivingtype": "automatic",
       "type": "suplux",
       "count": 0,
-      "status": "NotBooked",
+      "status": "Booked",
       "id": "61c9"
     },
     {
@@ -141,7 +146,7 @@
       "carmodel": "2025",
       "carimage": "nil",
       "type": "normal",
-      "status": "Booked"
+      "status": "NotBooked"
     },
     {
       "id": "1620",
@@ -152,7 +157,19 @@
       "carmodel": "2025",
       "carimage": "https://i.pinimg.com/originals/07/8c/71/078c71955fe352c544e395fbafddf82c.jpg",
       "type": "sports",
-      "status": "Not-Booked"
+      "status": "NotBooked"
+    },
+    {
+      "id": "a7cb",
+      "carname": "RED RANGER",
+      "price": "$50/hr",
+      "drivingtype": "manual",
+      "carrank": "2",
+      "carmodel": "2023",
+      "carimage": "https://th.bing.com/th/id/OIP.JvgjTb4bC_6EIICyoQN1cgHaEK?rs=1&pid=ImgDetMain",
+      "type": "suplux",
+      "count": 1,
+      "status": "NotBooked"
     }
   ],
   "contact": [
@@ -215,11 +232,6 @@
     }
   ],
   "admin": [
-    {
-      "id": "1",
-      "adminname": "VICTOR",
-      "adminemail": "victor@gmail.com",
-      "adminpassword": "victor123"
-    }
+    
   ]
 }

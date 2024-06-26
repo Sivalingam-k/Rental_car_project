@@ -26,17 +26,19 @@ const AdminComp = () => {
    };
    
 
-   const handleSubmit = (event) => {
+   const adminSubmit = (event) => {
+   
     event.preventDefault();
     const data = new FormData(event.currentTarget);
     let email =data.get('email');
     let password=data.get('password');
     axios.get("http://localhost:8888/admin").then((res)=>{
-        let usersData=res.data;
-       const data =usersData.filter((val)=>{return val.adminemail===email && val.adminpassword===password});
+      
+        let adminData=res.data;
+       const data =adminData.filter((val)=>{return val.adminemail===email && val.adminpassword===password});
        if(data.length>0){
         nav("/adminDashboard");
-        sessionStorage.setItem("admin",email)
+        sessionStorage.setItem("user",email)
        }
        else{  
         window.alert("admin credentials is wrong!!");
@@ -65,7 +67,7 @@ const AdminComp = () => {
           <Typography component="h1" variant="h5">
             Sign in
           </Typography>
-          <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
+          <Box component="form"  noValidate sx={{ mt: 1 }}>
             <TextField
               margin="normal"
               required
@@ -96,6 +98,7 @@ const AdminComp = () => {
               variant="contained"
               onClick={()=>redirect()}
               sx={{ mt: 3, mb: 2 }}
+              onSubmit={()=>adminSubmit()}
             >
               Sign In
             </Button>

@@ -201,9 +201,7 @@ const LandingPage = () => {
             <MenuIcon />
           </IconButton>
         )}
-         <Button className="rent-car" onClick={()=>admin()} color="warning" variant="contained">
-         <i className="fas fa-user-circle"></i> Admin Login
-        </Button> &nbsp; &nbsp; &nbsp;
+        
         <Button className="rent-car" onClick={()=>reloadss()} color="warning" variant="contained">
           <i className="fas fa-car"></i> Rent a Car
         </Button>
