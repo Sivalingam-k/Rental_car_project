@@ -108,7 +108,7 @@
     {
       "carid": 3,
       "carname": "Volvo XC90",
-      "price": "$30/hr",
+      "price": "500",
       "carimage": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Volvo/XC-90/10588/1689924353443/front-left-side-47.jpg?imwidth=420&impolicy=resize",
       "carrank": 9,
       "carmodel": 2023,
@@ -216,7 +216,7 @@
   ],
   "admin": [
     {
-      "id": 1,
+      "id": "1",
       "adminname": "VICTOR",
       "adminemail": "victor@gmail.com",
       "adminpassword": "victor123"

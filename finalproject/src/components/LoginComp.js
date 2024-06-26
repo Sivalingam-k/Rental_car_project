@@ -27,7 +27,9 @@ const LoginComp = () => {
    const reloadss = ()=>{
     nav('/forgot');
    };
-
+   const aredirect = ()=>{
+    nav('/adminLogin');
+   };
    const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
@@ -51,6 +53,18 @@ const LoginComp = () => {
 
   return (
     <ThemeProvider theme={defaultTheme} >
+       <Link component="button" variant="text" onClick={()=>aredirect()}>
+       <Button
+              type="submit"
+             
+              variant="contained"
+             
+              sx={{ mt: 3}}
+            >
+             Admin
+            </Button>
+                </Link>
+    
       <Container component="main"  maxWidth="xs">
         <CssBaseline />
         <Box

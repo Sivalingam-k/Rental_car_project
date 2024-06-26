@@ -9,6 +9,11 @@ import { Link } from 'react-router-dom';
 const AdminDashboardComp = () => {
   
   const nav=useNavigate()
+  const logout = ()=>{
+    sessionStorage.removeItem('admin');
+    nav('/');
+   };
+   
      const [itemData,setItemData] = useState([]);
     
      
@@ -49,8 +54,13 @@ fetchData();
         <div className='container-fluid mt-4 mb-4 '>
             
            
-            <Link to="/addCar" className='btn btn-primary mb-2'>
+          
+        
+            <Link to="/addCar" className='btn btn mb-2 button-33' >
            Add</Link>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <Link to="/adminLogin"  onClick={()=>logout()} className='btn btn mb-2 button-33'style={{position:"absolute",left:"1100px"}}>
+           Logout</Link>
            
 
             <table className='table table-hover table-striped '>
