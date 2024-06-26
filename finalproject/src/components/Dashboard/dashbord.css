@@ -34,13 +34,13 @@ img{
 #hovers:hover{
     
     transform: scale(1.05);
-    box-shadow: 1px 1px 30px 	#FFD700;
+    /* box-shadow: 1px 1px 30px 	#FFD700; */
 }
 
 
 #buttonss:hover{
-    background-color: #FFD700 !important;
-    color: #222222 !important;
+    /* background-color: #FFD700 !important;
+    color: #222222 !important; */
     
 }
 
@@ -48,7 +48,7 @@ img{
 
 
 /* CSS */
-#button-29 {
+button-29 {
   font-size: 16px;
   font-weight: 200;
   letter-spacing: 1px;
@@ -63,7 +63,7 @@ img{
   touch-action: manipulation;
 }
 
-#button-29:after {
+button-29:after {
   content: "";
   background-color: #ffe54c !important ;
   width: 100%;
@@ -75,7 +75,7 @@ img{
   transition: 0.2s;
 }
 
-#button-29:hover:after {
+button-29:hover:after {
   top: 0px;
   left: 0px;
 }
@@ -126,7 +126,7 @@ img{
 
 }
 
-#button-29:hover{
+button-29:hover{
   box-shadow: 1px 1px 20px #FFD700;
 }
 
@@ -158,4 +158,54 @@ body, html {
   right: 0;
   height: 60px;
   z-index: 1000;
+}
+
+
+
+
+
+
+#button-73 {
+  appearance: none;
+  background-color: #FFC229;
+ 
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#button-73:hover {
+  background-color: #FFFFFF;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  
+  transform: scale(1.125);
+}
+
+#button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  #button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
 }
