@@ -47,9 +47,9 @@ const nav = useNavigate();
       </div>
       <nav class="navbars  mt-5">
         <div>
-         <Link to="luxories"><button className='btn ' id='button-73'> <a class="navbar-brand text-dark " href="#">Luxurious Car</a></button></Link> 
+         <Link to=""><button className='btn ' id='button-73'> <a class="navbar-brand text-dark " href="#">Luxurious Car</a></button></Link> 
          <Link to="Sports"> <button className='btn btn-warning' id='button-73'> <a class="navbar-brand text-dark" href="#">Sports Car</a></button></Link>
-         <Link to="delux">  <button className='btn btn-warning ' id='button-73'> <a class="navbar-brand text-dark" href="#">delux Car</a></button></Link>
+         <Link to="delux">  <button className='btn btn-warning ' id='button-73'> <a class="navbar-brand text-dark" href="#">Vintage Car</a></button></Link>
          <Link to="superlux"> <button className='btn btn-warning  ' id='button-73' > <a class="navbar-brand text-dark" href="#">superlux car</a></button></Link>
          <Link to="Selected"> <button className='btn btn-warning ' id='button-73'> <a class="navbar-brand text-dark" href="#">Selected Cars</a></button> </Link>
          <Link to="userinfo"> <button className='btn btn-warning ' id='button-73'> <a class="navbar-brand text-dark" href="#">User Info</a></button> </Link>

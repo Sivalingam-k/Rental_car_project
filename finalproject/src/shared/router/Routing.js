@@ -52,7 +52,7 @@ const router = createBrowserRouter([
     {path:"forgot",element:<ForgotPassComp/> },
   {path:"MainDashbord",element:<ProtectedRouting Component={UserDashbord}></ProtectedRouting>,children: [
     {path:"userinfo",element:<Userinfo></Userinfo>},
-    {path:"luxories",element:<Luxurious></Luxurious>},
+    {path:"",element:<Luxurious></Luxurious>},
     {path:"Sports",element:<Sports></Sports>},
     {path:"delux",element:<Delux></Delux>},
     {path:"superlux",element:<Superluxurious></Superluxurious>},
