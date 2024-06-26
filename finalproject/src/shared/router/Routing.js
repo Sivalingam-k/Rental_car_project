@@ -32,12 +32,12 @@ const router = createBrowserRouter([
 
   // {path:"addCar",element:<ProtectedRouting Component={AddCarComp}></ProtectedRouting>},
   // {path:"updateCar/:id",element:<ProtectedRouting Component={UpdateCarComp}></ProtectedRouting>},
-  {path:"adminDashboard",element:<ProtectedRouting Component={AdminDashboardComp}></ProtectedRouting>,children:[
-    // {path:"addCar",element:<AddCarComp></AddCarComp>},
-    // {path:"updateCar/:id",element:<UpdateCarComp></UpdateCarComp>},
-  ]},
+   {path:"adminDashboard",element:<ProtectedRouting Component={AdminDashboardComp}></ProtectedRouting>,children:[
+    {path:"addCar",element:<AddCarComp></AddCarComp>},
+    {path:"updateCar/:id",element:<UpdateCarComp></UpdateCarComp>},
+         ]},
  {path:"addCar",element:<AddCarComp></AddCarComp>},
- {path:"adminDashboard",element:<AdminDashboardComp></AdminDashboardComp>},
+ //{path:"adminDashboard",element:<AdminDashboardComp></AdminDashboardComp>},
     {path:"updateCar/:id",element:<UpdateCarComp></UpdateCarComp>},
 
 
@@ -54,7 +54,7 @@ const router = createBrowserRouter([
     {path:"delux",element:<Delux></Delux>},
     {path:"superlux",element:<Superluxurious></Superluxurious>},
     {path:"selected",element:<Selected/>},
-    {path:"user_info",element:<Userinfo/>},
+    {path:"user_info",element:<Userinfo/>}, 
     {path:"testing",element:<CardList></CardList>},
     
 ]},

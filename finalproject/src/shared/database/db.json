@@ -86,11 +86,10 @@
       "carmodel": 2023,
       "drivingtype": "automatic",
       "type": "luxurious",
-      "count": 1,
+      "count": 0,
       "status": "Not-Booked",
       "id": "8eaa",
-      "user": "basil123@gmail.com",
-      "bookingstatus": true
+      "user": "siva123@gmail.com"
     },
     {
       "carid": 2,
@@ -101,26 +100,23 @@
       "carmodel": 2021,
       "drivingtype": "automatic",
       "type": "luxurious",
-      "count": 1,
+      "count": 0,
       "status": "Booked",
       "id": "6bde",
-      "user": "basil123@gmail.com",
-      "bookingstatus": true
+      "user": "siva123@gmail.com"
     },
     {
-      "carid": 3,
       "carname": "Volvo XC90",
-      "price": "$30/hr",
+      "price": "500",
       "carimage": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Volvo/XC-90/10588/1689924353443/front-left-side-47.jpg?imwidth=420&impolicy=resize",
       "carrank": 9,
       "carmodel": 2023,
       "drivingtype": "automatic",
       "type": "luxurious",
-      "count": 1,
+      "count": 0,
       "status": "Booked",
       "id": "eeb",
-      "user": "",
-      "bookingstatus": true
+      "user": "siva123@gmail.com"
     },
     {
       "id": "4cff",
@@ -130,6 +126,8 @@
       "carrank": "76",
       "carmodel": "2025",
       "carimage": "nil",
+      "user": "",
+      "count": 0,
       "type": "normal",
       "status": "Booked"
     },
@@ -142,9 +140,9 @@
       "carmodel": "2025",
       "carimage": "https://i.pinimg.com/originals/07/8c/71/078c71955fe352c544e395fbafddf82c.jpg",
       "type": "sports",
-      "status": "Not-Booked",
+      "status": "NotBooked",
       "user": "",
-      "bookingstatus": false
+      "count": 1
     },
     {
       "id": "4398",
@@ -155,8 +153,9 @@
       "carmodel": "2025",
       "carimage": "https://english.cdn.zeenews.com/sites/default/files/2023/08/24/1268665-nissan-gtr-nismo-gt3.jpg",
       "type": "luxurious",
-      "status": "Not-Booked",
-      "count": 1
+      "status": "NotBooked",
+      "user": "basilahamed46@gmail.com",
+      "count": 0
     },
     {
       "id": "17a2",
@@ -167,6 +166,19 @@
       "carmodel": "2025",
       "carimage": "https://global.toyota/pages/news/images/2022/10/28/1700/001.jpg",
       "type": "luxurious",
+      "status": "Booked",
+      "user": "sandeep123@gmail.com",
+      "count": 1
+    },
+    {
+      "id": "bc0f",
+      "carname": "g wagan",
+      "price": "345",
+      "drivingtype": "manual",
+      "carrank": "76",
+      "carmodel": "2025",
+      "carimage": "https://www.mercedes-benz.co.in/content/india/en/passengercars/models/suv/g-class/overview/_jcr_content/root/responsivegrid/tabs_573903383_copy/tabitem/highlight/slider/image.component.damq1.3376226587799.jpg/cavansite_blue_metallic.jpg",
+      "type": "suplux",
       "status": "Not-Booked",
       "count": 1
     }
