@@ -53,13 +53,13 @@ const CarDetails = (car) => {
 //       });
    
 // };
-
   
   const handleAddOne =  (car) => {
     const newStatus = sessionStorage.getItem("user")
+    window.alert(newStatus)
     const newcount = 1
-      axios.put(`http://localhost:8888/car/${car.id}`, { ...car, user: newStatus })
-      axios.put(`http://localhost:8888/car/${car.id}`, { ...car, count: newcount })
+      axios.put(`http://localhost:8888/car/${car.id}`, { ...car, user:  sessionStorage.getItem("user") })
+      // axios.put(`http://localhost:8888/car/${car.id}`, { ...car, count: newcount })
       .then(() => {
         setItemData(itemData.map(item => item.id === car.id ? { ...item, user: newStatus } : item));
       })
@@ -128,7 +128,7 @@ const CarDetails = (car) => {
         }).catch((error)=>{})
     }
     const UserDetails = () =>{
-        axios.get("http://localhost:8888/user").then((referance)=>{
+        axios.get("http://localhost:8888/users").then((referance)=>{
           setUsers(referance.data)
             console.log(referance.data)
         }).catch((error)=>{})

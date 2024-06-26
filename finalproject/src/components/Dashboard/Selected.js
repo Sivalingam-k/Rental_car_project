@@ -10,61 +10,78 @@ import Rating from '@mui/material/Rating';
 // not to finish
 const Selected = () => {
 
-    const [CarItems ,setCarItems] =useState([]);
-    const [Userdetails,setuserdetails] =useState([]);
-
-    const[Luxurious,setlux] = useState([])
-
-
-
-    // fratching the car items this use effect was do 
-    useEffect(()=>{
-        featchCarItens() 
-    },[1])
+  // const {carid}= useParams();
+  const [users,setUsers] =useState([]);
+  const[itemData,setItemData] = useState([])
+  const [clicking,setclikcing] = useState(0);
 
 
 
+  /// by using the count to the perticular car
 
-    // fratching the userdetails items this use effect was do
-    useEffect(()=>{
-        UserDetails()
-    },[])
+// useEffect(() => {
+//   fetchCars();
+// }, []);
 
 
-    // by using the car = database name ?type= keyword , and = (value of the car item)
-    const featchCarItens = () =>{
-        axios.get("http://localhost:8888/car?type=sports").then((referance)=>{
-            setCarItems(referance.data)
-            console.log(referance.data)
-        }).catch((error)=>{})
+//to get the data from the query of luxurious car
+
+
+
+ 
+
+    // setCars(updatedCars);
+
+  // fratching the car items this use effect was do 
+
+
+
+
+
+  // fratching the userdetails items this use effect was do
+
+
+
+  // by using the car = database name ?type= keyword , and = (value of the car item)
+  const [cars, setCars] = useState([]);
+
+  useEffect(() => {
+    fetchCars();
+  }, []);
+
+
+  //to get the data from the query of luxurious car
+  const fetchCars = async () => {
+    try {
+      let userdata = sessionStorage.getItem('user'); 
+      const response = await fetch(`http://localhost:8888/car?user=${userdata}`);
+      if (!response.ok) {
+        throw new Error('Failed to fetch cars');
+      }
+      const data = await response.json();
+      setCars(data);
+    } catch (error) {
+      console.error('Error fetching cars:', error);
     }
-    const UserDetails = () =>{
-        axios.get("http://localhost:8888/user").then((referance)=>{
-            setuserdetails(referance.data)
-            console.log(referance.data)
-        }).catch((error)=>{})
-    }
-    
+  };
+
     
   return  <>
 
         {/* by using the session storage method for getting the username */}
         <div className="container mt-5">
-      <div className="row">
-        
-        {
-        
-        CarItems.map((val, index) => (
-            <div key={index} className="col-lg-4 col-md-4 col-sm-6">
-            <div className="card mb-3">
+      <div className="row">{
+
+        cars.map((val, index) => (
+            <div key={val.id}  className="col-lg-4 col-md-4 col-sm-6">
+            <div className="card mb-3" id='card'>
               <img src={val.carimage} className="card-img-top" alt={val.name} style={{height:"300px"}} />
               <div className="card-body">
                 <h5 className="card-title">{val.carname}</h5>
                 <p className="card-text">CarRank: <strong> {val.carrank} </strong> type: <strong> {val.drivingtype} </strong>model : <strong> {val.carmodel}</strong></p>
-                <p className="float-left"></p>
-                <button className="btn btn-primary float-left">{val.price} Car Price here</button>
-                
-              </div>
+                <p style={{alignItems:"right"}} className='float-right'>addning car:<strong> {val.count} </strong></p>
+                {/* <button key={users.id} onClick={() => handleAddOne(val)} className="btn btn-primary float-left">{val.price} Only/-  </button>  */}
+              </div>  
               
             </div>
           </div>))}
